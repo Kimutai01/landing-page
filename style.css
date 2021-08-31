@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navigation{
+    background-image: url(images/nico-iseli-W7oHCrzoJjo-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    
+}
+.navi-bar {
+    float: right;
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.navi-bar li a{
+    margin: 30px;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navi-bar li a:hover{
+    color: white;
+    margin: 1px solid orange;
+}
+
+.social-icons li {
+    margin-top: 20px;
+    list-style: none;
+    float: right;
+  }
+  .social {
+    color: #ddd;
+    margin: 20px;
+    font-size: 40px;
+  }
+
+  footer {
+    background-color: #333;
+  }
+  .facebook:hover{
+    color: #1778F2;
+
+  }
+  .googleplus:hover{
+    color: #DD4B39;
+  }
+  .twitter:hover{
+    color: #00acee;
+  }
+  .skype:hover{
+    color:  #00aff0;
+  }
+  .instagram:hover{
+    color: #8a3ab9;
+  }
+
+  .footer-nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px 10px;
+    color: #ddd;
+  }
+  .footer-nav a:hover{
+    color: orange;
+  }
+  .footer-nav{
+    float: left;
+  }
+
+  .scroll-up-btn {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(56, 55, 55, 0.8);
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+  }
+  .scroll-up-btn:hover {
+    background-color: #8C8E8F;
+  }
+
+
+ 
+
